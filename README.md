@@ -58,7 +58,6 @@ Added JWT functionality as shown in the course. Make sure that JWTs are required
    POSTGRES_DB_TEST=store_test
    POSTGRES_USER=postgres
    POSTGRES_PASSWORD=password
-#### user hashing password
    BCRYPT_PASSWORD=new-password
    SALT_ROUNDS=10
    SECERT_TOKEN=the-secert-token
