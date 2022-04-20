@@ -58,10 +58,12 @@ Added JWT functionality as shown in the course. Make sure that JWTs are required
    POSTGRES_DB_TEST=store_test
    POSTGRES_USER=postgres
    POSTGRES_PASSWORD=password
-   # user hashing password
+#### user hashing password
    BCRYPT_PASSWORD=new-password
    SALT_ROUNDS=10
    SECERT_TOKEN=the-secert-token
+   
+   
 - Creating a config file to take the env variables and Export them when needed   
 - Create the TWO databases using POSTGRES with aid from PGadmin    
 - Creating diffrent folders such as MODELS,ROUTES,MIDDLEWARE,INTERFACES,MIGRAIONS,and DATABASE
