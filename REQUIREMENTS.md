@@ -41,7 +41,10 @@ These are the notes from a meeting with the frontend developer that describe wha
 
 #### Orders
 - id [STRING SERIAL PRIMARY KEY]
-- id of each product in the order [ STRING SERIAL PRIMARY KEY ] [FORIGN KEY]
-- quantity of each product in the order [Number INTEGER]
 - user_id[ STRING SERIAL PRIMARY KEY ] [FORIGN KEY]
 - status of order (active or complete) [String VARCHAR]
+#### productorder
+- id [STRING SERIAL PRIMARY KEY]
+- quantity [Number INTEGER]
+- id of the order wanted [ STRING SERIAL PRIMARY KEY ] [FORIGN KEY]
+- id of the product wanted [ STRING SERIAL PRIMARY KEY ] [FORIGN KEY]
