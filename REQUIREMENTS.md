@@ -28,23 +28,23 @@ These are the notes from a meeting with the frontend developer that describe wha
 
 ## Data Shapes
 #### Product
--  id [String VARCHAR] [STRING SERIAL PRIMARY KEY]
+- id [STRING SERIAL PRIMARY KEY]
 - name [String VARCHAR]
 - price [Number INTEGER]
 
 #### User
 - id [STRING SERIAL PRIMARY KEY]
-- email [ UNIQUE ] [String VARCHAR]
+- email  [String VARCHAR]
 - firstName [String VARCHAR]
 - lastName [String VARCHAR]
-- password [ HASHED ] [String VARCHAR]
+- password  [String VARCHAR]
 
 #### Orders
 - id [STRING SERIAL PRIMARY KEY]
-- user_id[ STRING SERIAL PRIMARY KEY ] [FORIGN KEY]
+- user_id [FORIGN KEY]
 - status of order (active or complete) [String VARCHAR]
 #### productorder
 - id [STRING SERIAL PRIMARY KEY]
 - quantity [Number INTEGER]
-- id of the order wanted [ STRING SERIAL PRIMARY KEY ] [FORIGN KEY]
-- id of the product wanted [ STRING SERIAL PRIMARY KEY ] [FORIGN KEY]
+- id of the order wanted  [FORIGN KEY]
+- id of the product wanted  [FORIGN KEY]
