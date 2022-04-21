@@ -52,13 +52,20 @@ Added JWT functionality as shown in the course. Make sure that JWTs are required
 - Set up the databases on your point in  an ENV file
    -PORT=3000 `port that is for the endpoint`
    -NODE_ENV=dev
+
+
    -POSTGRES_HOST=localhost
+
+
    -POSTGRES_PORT=5432`The postgres port`
+
+
    -POSTGRES_DB=store_dev
+
+   
    -POSTGRES_DB_TEST=store_test
    -POSTGRES_USER=postgres
    -POSTGRES_PASSWORD=password
-   # user hashing password
    -BCRYPT_PASSWORD=new-password
    -SALT_ROUNDS=10
    -SECERT_TOKEN=the-secert-token
