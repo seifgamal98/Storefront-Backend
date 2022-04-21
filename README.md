@@ -50,25 +50,29 @@ Added JWT functionality as shown in the course. Make sure that JWTs are required
 ### 6. Step by Step to test all the project requirments
 - Installing all the nessecary packeges etc. jasmine,superset,node,...
 - Set up the databases on your point in  an ENV file
+   
    -PORT=3000 `port that is for the endpoint`
-   -NODE_ENV=dev
 
+   -NODE_ENV=dev
 
    -POSTGRES_HOST=localhost
 
-
    -POSTGRES_PORT=5432`The postgres port`
-
 
    -POSTGRES_DB=store_dev
 
-   
    -POSTGRES_DB_TEST=store_test
+
    -POSTGRES_USER=postgres
+
    -POSTGRES_PASSWORD=password
+
    -BCRYPT_PASSWORD=new-password
+
    -SALT_ROUNDS=10
+
    -SECERT_TOKEN=the-secert-token
+   
 - Creating a config file to take the env variables and Export them when needed   
 - Create the TWO databases using POSTGRES with aid from PGadmin    
 - Creating diffrent folders such as MODELS,ROUTES,MIDDLEWARE,INTERFACES,MIGRAIONS,and DATABASE
